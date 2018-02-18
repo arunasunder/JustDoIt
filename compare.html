@@ -25,6 +25,7 @@
     </head>
   <body>
     <div class="page-background">
+            <!-- <div class="container"> -->
             <div id="wrapper">
                 
                    <nav class="navbar navbar-default" id="nav-back">
@@ -64,74 +65,62 @@
 
             <div class="container" style="width:100%">
                 <div class="row">
-                    <div class="col-md-6 box">
-                        <!-- <div class="row">
-                                                <div class="col-md-7"> -->
-                        <h1 class="st-text-lightgreen">
-                            <b>
-                                Summary: Latitude vs. X
-                            </b>
-                        </h1>
-                        <hr>
-                            <section>
-                                <img alt="Latitude" class="img-square st-img" src="output_data/1_Lat_vs_Temp.png">
-                                    <div class="float-left st-para">
-                                        <br>
-                                            <p>
-                                                The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
-                                            </p>
-                                            <br>
-                                                <p>
-                                                    After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explainations and descriptions of any trends and correlations witnessed.
-                                                </p>
-                                            </br>
-                                        </br>
-                                    </div>
-                                </img>
-                            </section>
-                        </hr>
-                    </div>
-                    <div class="col-md-4 box">
-                        <div class="row">
+                    <div class="col-md-12 box">
                             <h1 class="st-text-lightgreen">
-                                <b>
-                                    Visualizations
-                                </b>
+                                    <b>Comparison: Latitude vs. X</b>
                             </h1>
                             <hr>
-                                <a href="visual_Temp.html">
-                                    <img alt="Latitude" class="img-square st-img" src="output_data/1_Lat_vs_Temp.png">
-                                    </img>
-                                </a>
-                                <a href="visual_Humid.html">
-                                    <img alt="Latitude" class="img-square st-img" src="output_data/2_Lat_vs_Humid.png">
-                                    </img>
-                                </a>
-                                <a href="visual_Cloud.html">
-                                    <img alt="Latitude" class="img-square st-img" src="output_data/3_Lat_vs_Cloud.png">
-                                    </img>
-                                </a>
-                                <a href="visual_WindSp.html">
-                                    <img alt="Latitude" class="img-square st-img" src="output_data/4_Lat_vs_WindSp.png">
-                                    </img>
-                                </a>
-                            </hr>
-                        </div>
+                            <p>Click any plot to get an in-depth analysis.</p>
+                            <div class="row">
+                                    <div class="col-sm-12 col-md-6 st-box-own">
+                                            <a href="visual_Temp.html">
+
+                                                    <p class="st-fig-title">
+                                                            <b>vs. Max temperature</b>
+                                                    </p>
+                                                    <img class="img-square st-img-three" src="output_data/1_Lat_vs_Temp.png" alt="Latitude">
+                                            </a>
+                                    </div>
+                                    <div class="col-sm-12 col-md-6 st-box-own">
+                                            <a href="visual_Humid.html">
+
+                                                    <p class="st-fig-title">
+                                                            <b>vs. Humidity</b>
+                                                    </p>
+                                                    <img class="img-square st-img-three" src="output_data/2_Lat_vs_Humid.png" alt="Latitude">
+                                            </a>
+                                    </div>
+                            </div>
+                            <br><br>
+                            <div class="row">
+                                    <div class="col-sm-12 col-md-6">
+                                            <a href="visual_Cloud.html">
+
+                                                    <p class="st-fig-title">
+                                                            <b>vs. Cloudiness</b>
+                                                    </p>
+                                                    <img class="img-square st-img-three" src="output_data/3_Lat_vs_Cloud.png" alt="Latitude">
+                                            </a>
+                                    </div>
+                                    <div class="col-sm-12 col-md-6">
+                                            <a href="visual_WindSp.html">
+
+                                                    <p class="st-fig-title">
+                                                            <b>vs. Wind Speed</b>
+                                                    </p>
+                                                    <img class="img-square st-img-three" src="output_data/4_Lat_vs_WindSp.png" alt="Latitude">
+                                            </a>
+                                    </div>
+                            </div>
+
                     </div>
-                </div>
             </div>
-        </div>
-  </body>
-  <footer>
-        <div class="page-background">
-            <br>
-                <br>
-                    <br>
-                        <br>
-                        </br>
-                    </br>
-                </br>
-            </br>
-        </div>
+            </div>
+      </div>
+    </body>
+    <footer>
+      <div class="page-background">
+        <br><br><br><br><br><br><br><br><br><br>
+      </div>
     </footer>
-</html>
+  </html>
